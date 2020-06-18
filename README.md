@@ -1,4 +1,5 @@
-#Coding Examples
+# Coding Examples
+
 Just some examples of my code in the coding languages I know.
 
 This is for people who need code examples for approval or people who just wanted to know what I've been doing lately.
