@@ -11,4 +11,8 @@ function module.GetRandomItem(itemList) --List must be the name of the item as t
     return randomizer[math.random(1,#randomizer)]
 end
 
+function module.GetRandomVector3(maximumList) --List with the maximum/minimum x y and z
+    return Vector3.new(math.random(maximumList.XMax,maximumList.XMin),math.random(maximumList.YMax,maximumList.YMin), math.random(maximumList.ZMax,maximumList.ZMin))
+end
+
 return module
